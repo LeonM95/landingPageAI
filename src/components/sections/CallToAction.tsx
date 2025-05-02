@@ -1,4 +1,4 @@
-import { Button } from "../shared/Button";
+import { Button } from "../shared/Button.tsx";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 

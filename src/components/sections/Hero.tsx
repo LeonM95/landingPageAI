@@ -21,16 +21,15 @@ export const Hero = () => {
                         max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
         >
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-            Empower Your Business{" "}
+            Transform Customer Service{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">
               with AI
             </span>
           </h1>
           <Paragraph className="mt-8">
-            Our AI SaaS platform seamlessly integrates with your existing
-            workflows to deliver real‑time insights, intelligent automation, and
-            data‑driven decision-making. Experience a future where your business
-            runs smarter, faster, and more efficiently.
+            Nova AI empowers your business with intelligent chatbots that engage
+            customers, answer questions, and drive conversions across web and
+            social platforms—day and night
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">
@@ -59,13 +58,11 @@ export const Hero = () => {
                 </span>
                 <input
                   type="email"
-                  placeholder="leon@ai.com"
+                  placeholder="email@example.com"
                   className="w-full py-3 outline-none bg-transparent"
                 />
                 <Button clasName="min-w-max text-white">
-                  <span className="hidden sm:flex relative z-[5]">
-                    Get Started
-                  </span>
+                  <span className="relative z-[5]">Get Started</span>
                 </Button>
               </form>
             </div>

@@ -11,31 +11,27 @@ export const Numbers = () => {
         >
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              100+{" "}
+              90%
             </h2>
-            <p className="mt-2 text-heading-3"> AI Models Implemented</p>
+            <p className="mt-2 text-heading-3">Reduction in Response Time</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              250+{" "}
+              10+
             </h2>
-            <p className="mt-2 text-heading-3"> Enterprise Clients</p>
+            <p className="mt-2 text-heading-3">Supported Languages</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              99.9%{" "}
+              200+
             </h2>
-            <p className="mt-2 text-heading-3"> Uptime Guarantee</p>
+            <p className="mt-2 text-heading-3">Custom Chatbots Deployed</p>
           </div>
           <div className="text-center px-5">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">
-              {" "}
-              10+{" "}
+              45%
             </h2>
-            <p className="mt-2 text-heading-3"> Years of Innovation</p>
+            <p className="mt-2 text-heading-3">Boost in Conversion Rates</p>
           </div>
         </div>
       </Container>
