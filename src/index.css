@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: 255 255 255;
-  --color-box: 255 255 255;
-  --box-border: 229 231 235;
-  --box-sd: 226 232 240 / 0.5;
-  --heading-1: 23 37 84;
-  --heading-2: 31 41 55;
-  --heading-3: 55 65 81;
+  --color-bg: 229 231 235; /* darker neutral gray */
+  --color-box: 221 227 234; /* muted blue-gray */
+  --box-border: 163 174 194; /* darker soft gray-blue */
+  --box-sd: 163 174 194 / 0.3; /* more subtle shadow */
+  --heading-1: 26 35 52; /* deeper slate */
+  --heading-2: 45 55 72; /* darker gray-blue */
+  --heading-3: 63 75 92; /* mid-range slate */
 }
 
 .dark {
-  --color-bg: 3 7 18;
-  --color-box: 17 24 39;
-  --box-border: 243 244 246 / 0.1;
-  --box-sd: transparent;
-  --heading-1: 255 255 255;
-  --heading-2: 243 244 246;
-  --heading-3: 209 213 219;
+  --color-bg: 15 15 23; /* deeper navy-black */
+  --color-box: 24 24 34; /* dark muted purple-gray */
+  --box-border: 124 58 237 / 0.15; /* faint violet hint */
+  --box-sd: transparent; /* no shadows in dark mode */
+  --heading-1: 215 210 240; /* softer off-white lavender */
+  --heading-2: 192 185 220; /* gentle gray-lavender */
+  --heading-3: 165 160 200; /* muted violet-gray */
 }
 
 @layer utilities {

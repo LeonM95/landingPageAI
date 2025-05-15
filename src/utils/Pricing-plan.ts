@@ -1,11 +1,11 @@
 export const pricingPlans = [
   {
     title: "Basic",
-    price: "$19/mo",
+    price: "$199/mo",
     features: [
-      "Access to basic AI tools",
-      "Limited data analytics",
-      "Email support",
+      "24/7 basic chatbot support",
+      "Integration with website chat",
+      "Real-time analytics dashboardt",
     ],
   },
   {
@@ -13,9 +13,8 @@ export const pricingPlans = [
     price: "$49/mo",
     features: [
       "Everything in Basic",
-      "Advanced AI features",
-      "Real‑time analytics",
-      "Priority email support",
+      "Multi-platform (web, WhatsApp, Messenger) support",
+      "Enhanced customer segmentation",
     ],
     bestValue: true,
   },
@@ -24,9 +23,8 @@ export const pricingPlans = [
     price: "$99/mo",
     features: [
       "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 premium support",
+      "Unlimited chat history & advanced analytics",
+      "Custom onboarding & training sessions",
     ],
   },
 ];
