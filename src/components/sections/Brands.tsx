@@ -9,7 +9,7 @@ export const Brands = () => {
       <Container className="space-y-8">
         <div className="text-center max-w-3xl mx-auto">
           {/* title component  */}
-          <Title>Trusted by Industry Leaders</Title>
+          <Title>Used by these companies</Title>
         </div>
         <div className="flex justify-center flex-wrap gap-4">
           {logos.map((logo, key) => (

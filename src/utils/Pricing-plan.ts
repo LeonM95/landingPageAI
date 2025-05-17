@@ -10,7 +10,7 @@ export const pricingPlans = [
   },
   {
     title: "Pro",
-    price: "$49/mo",
+    price: "$300/mo",
     features: [
       "Everything in Basic",
       "Multi-platform (web, WhatsApp, Messenger) support",
@@ -20,7 +20,7 @@ export const pricingPlans = [
   },
   {
     title: "Enterprise",
-    price: "$99/mo",
+    price: "$499/mo",
     features: [
       "Everything in Pro",
       "Unlimited chat history & advanced analytics",

@@ -6,12 +6,13 @@ import { Numbers } from "./Numbers.tsx";
 export const Hero = () => {
   return (
     <section className="relative pt-32 lg:pt-36">
-      {/* change direction to row in large screens */}
+      {/* container component  */}
       <Container className="flex flex-col lg:flex-row gap-10 lg:gap-12">
+        {/* text */}
         <div className="absolute w-full lg:w-1/2 inset-y-0 lg:right-0">
           <span
             className="absolute -left-6 md:left-4 top-24 lg:top-28 w-24 h-24 rotate-90 shew-x-12 
-          rounded-3x1 bg-gradient-to-r from-blue-600 to-violet-600 blur-xl opacity-60 lg:opacity-95 lg:block hidden"
+          rounded-3x1 bg-gradient-to-r from-[#7c3aed] to-[#22d3ee] blur-xl opacity-60 lg:opacity-95 lg:block hidden"
           ></span>
           <span className="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80"></span>
         </div>
@@ -22,7 +23,7 @@ export const Hero = () => {
         >
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
             Transform Customer Service{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7c3aed] to-[#22d3ee]">
               with AI
             </span>
           </h1>
@@ -72,10 +73,11 @@ export const Hero = () => {
         <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
           <img
             src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            //src="src/assets/images/HeroImage.png"
             alt="Hero Image"
             width={2350}
             height={2359}
-            className="lg:absolute lg:w-full lg:h-full rounded-3xl object cover lg:max-h-non nax-h-96"
+            className="lg:absolute lg:w-full lg:h-full rounded-3xl object cover lg:max-h-non max-h-112"
           />
         </div>
       </Container>
